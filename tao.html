@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <style>
+        *{
+    padding: 0;
+    margin: 0;
+    }
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    .h5 a{
+    
+    margin-left:70px;
+
+    
+    }
+    .h5 a:hover{
+    background-color: red;
+     }
+     li,ul{
+    list-style: none;
+    }
+    img{
+    background-color: #ccc;
+    }
+    .p1{
+    height:30px;
+    width:100%;
+    line-height:30px;
+    font-size:12px;
+    background-color: #f4f4f4;
+
+
+    }
+    .h1,.h3{
+    position:relative;
+    left:110px;
+
+    }
+    .h2{
+    position:absolute;
+    right:180px;
+    top:3px;
+    }
+    .h4{
+    position:relative;
+    right:500px;
+    }
+    .p2{
+    height:160px;
+    width:100%;
+    line-height:160px;
+    font-size:18px;
+    
+    }
+    .p3{
+    height:650px;
+    background-color:#f4f4f4;
+    }
+    .p5{
+        height:150px;
+        background-color: black;
+    }
+    .p6{
+        height:100px;
+        background-color:black;
+    }
+    .p6>li{
+        margin-bottom:20px;
+        text-align:center;
+        color:white;
+        font-size:12px;
+    }
+    .h5{
+    position:absolute;
+    left:140px;
+    top:75px;
+
+
+
+    }
+    .h6{
+        position:relative;
+        left:110px;
+        top:25px;
+        font-size:15px;
+
+    }
+    .h7{
+        position:relative;
+        background-color:white;
+        top:50px;
+        left:110px;
+        width:215px;
+        height:45px;
+        line-height:45px;
+    }
+    .h8{
+        position:relative;
+        background-color:white;
+        top:60px;
+        left:110px;
+        width:215px;
+        height:510px;
+        font-size:12px;
+        
+    }
+    .h9{
+        position:absolute;
+        background-color:white;
+        top:260px;
+        left:340px;
+        width:970px;
+        height:560px;
+        
+    }
+     .d{
+            display:inline-block;
+            width:501px;
+            height:41px;
+            border-color:#f83838;
+            border-width:2px;
+            margin-left:530px;
+            border-style:solid;
+            margin-top:42px;
+            background-color:#f83838;
+            color:#fdd6d6;
+            font-size:14px;
+            position:relative;
+            top:-150px;
+            left:500px;
+
+        }
+        .d input{
+            display:inline-block;
+            height:41px;
+            width:405px;
+            border-style:none;
+            font-size:14px;
+            color:#d4d4d4;
+            text-indent:15px;
+            margin-top:0px;
+            position:relative;
+            top:-59px;
+        }
+        .d div{
+            width:90px;
+            height:40px;
+            display:inline-block;
+            text-align:center;
+            position:relative;
+            top:-59px;
+        } 
+        .e{
+            height:40px;
+            width:155px;
+            float:right;
+            margin-top:42px;
+            margin-right:200px;
+            border-width:1px;
+            border-style:solid;
+            border-color:#e3e3e3;
+            background-color:#f5f5f5;
+            line-height:40px;
+            text-indent:45px;
+            background-image:url('购物车.jpg');
+            background-repeat:no-repeat;
+            background-position:23px 50%;
+            position:absolute;
+            top:-150px;
+            left:1650px;
+
+        }
+        .e span{
+            color:#f3aeae;
+        }
+
+    /* .h4{
+        width:500px;
+        height:40px;
+        border:1px solid red;
+        background-color: red;
+        position:absolute;
+        top:70px;
+        left:765px;
+    } */
+
+    .p5>ul{
+        
+        margin-left: 200px;
+        display:inline-block;
+    }
+    .p5>ul>li{
+        margin-top: 15px;
+
+        font-size: 12px;
+        color:white;
+    }
+    .h8>.s3{
+        position:absolute;
+        left:75px;
+        top:20px;
+    }
+    .h8>.s4{
+        position:absolute;
+        left:75px;
+        top:60px;
+    }
+    .h9>.p4>ul{
+        border: 1px solid #f4f4f4;
+        margin:15px 10px;
+        height:250px;
+        width:210px;
+        display:inline-block;
+    }
+    .h9>.p4>ul>li{
+        color:black;
+        text-align:center;
+    }
+    .h7>.s1{
+        position:absolute;
+        left:35px;
+        top:5px;
+
+
+    }
+    .h7>.s2{
+        position:relative;
+        left:75px;
+    }
+    .h5>li{
+    display: inline-block;
+    margin-left:70px；
+    }
+
+
+
+
+
+
+    </style>
+    
+        
+    </head>
+    <body>
+    	<div class="p1">
+    		<ul class="h1">
+    			<li>我的收藏&nbsp
+    				E族之家手机版&nbsp <img src="qqlogo.jpg" >&nbsp328203328</li>
+    		</ul>
+    		<ul class="h2">
+    			<li>扫描加入&nbsp欢迎来到E族之家，请登录|注册</li>
+    		</ul>
+    	</div>
+        <div class="p2">
+            <ul class="h3">
+                <img src="ezu.jpg">
+            </ul>
+            <ul class="h4">
+                <div class="d">
+                     <input type="text" name="" value="请输入关键词！">
+                     <div>搜索</div>
+                </div>
+                <div class="e">
+                  购物车(
+                   <span>0</span>
+                  )件
+                </div>
+
+            </ul>
+            <ul class="h5">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">E族生活</a></li>
+                <li><a href="#">E族服务</a></li>
+                <li><a href="#">E族爱心</a></li>
+                
+            </ul>
+        </div>
+        <div class="p3">
+            <ul class="h6">
+                当前位置：E族爱心&gt;食品
+            </ul>
+            <ul class="h7">
+                <li class="s1"><img src="list.png"></li>
+                <li class="s2">全部分类</li>
+            </ul>
+            <ul class="h8">
+                <li class="s3"><a href="#">&gt;食品</a></li>
+                <li class="s4"><a href="#">&gt;生活用品</a></li>
+
+            </ul>
+            <ul class="h9">
+                <div class="p4">
+                    <ul>
+                        <li><img src="lajiao.jpg" alt=""></li>
+                        <li>精品辣椒100g</li>
+                        <li>¥90.00</li>
+                    </ul>
+                    <ul>
+                        <li><img src="baixiangguo.jpg" alt=""></li>
+                        <li>特级百香果3斤</li>
+                        <li>¥90.00</li>
+                    </ul>
+                    <ul>
+                        <li><img src="pijiu.jpg" alt=""></li>
+                        <li>万威啤酒500ml</li>
+                        <li>¥90.00</li>
+                    </ul>
+                    <ul>
+                        <li><img src="songguo.jpg" alt=""></li>
+                        <li>万威啤酒500ml</li>
+                        <li>¥90.00</li>
+                    </ul>
+                </div>
+                <div class="p4">
+                    <ul>
+                        <li><img src="lajiao.jpg" alt=""></li>
+                        <li>精品辣椒100g</li>
+                        <li>¥90.00</li>
+                    </ul>
+                    <ul>
+                        <li><img src="baixiangguo.jpg" alt=""></li>
+                        <li>特级百香果3斤</li>
+                        <li>¥90.00</li>
+                    </ul>
+                    <ul>
+                        <li><img src="pijiu.jpg" alt=""></li>
+                        <li>万威啤酒500ml</li>
+                        <li>¥90.00</li>
+                    </ul>
+                    <ul>
+                        <li><img src="songguo.jpg" alt=""></li>
+                        <li>万威啤酒500ml</li>
+                        <li>¥90.00</li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+        <div class="p5">
+            <ul>
+                <li>新手上路</li>
+                <li>售后流程</li>
+                <li>购物流程</li>
+                <li>订购方式</li>
+            </ul>
+            <ul>
+                <li>购物指南</li>
+                <li>常见问题</li>
+                <li>订购流程</li>
+                <li>注册新会员</li>
+            </ul>
+            <ul>
+                <li>配送方式</li>
+                <li>货到付款区域</li>
+                <li>配送支付查询</li>
+                <li>支付方式说明</li>
+            </ul>
+            <ul>
+                <li>售后服务</li>
+                <li>售后流程</li>
+                <li>购物流程</li>
+                <li>订购方式</li>
+            </ul>
+            <ul>
+                <li>关于我们</li>
+                <li>售后流程</li>
+                <li>购物流程</li>
+                <li>订购方式</li>
+            </ul>
+        </div>
+        <div class="p6">
+            <li>E族生活&nbsp|&nbsp居家维修保养|&nbsp住宿优惠信息|&nbsp出行接送|&nbspE族活动|&nbspE族爱心|&nbsp积分商城</li>
+            <li>2017-2018&nbspE族之家&nbsp版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号</li>
+
+        </div>
+    <!-- <div class="top">
+    	<div class="one">
+    		<ul class="h2">
+
+    		    <li class="p1"><img src="phone.png" alt=""></li>
+    		    <li class="p1">400-808-8682</li>
+    		    <li class="p2"><a href="#">请登录</a></li>
+    		    <li class="p2">|</li>
+    		    <li class="p2"><a href="#">注册</a></li>
+    	    </ul>
+    	</div>
+    	<div class="two">
+    		<ul class="h3">
+    		    <li class="p3"><img src="logo.png" alt=""></li>
+    	    </ul>
+    	    <ul class="h4">
+    		    <li><a href="#">首页</a></li>
+    		    <li><a href="">目的地</a></li>
+    		    <li><a href="">亲子游学</a></li>
+    		    <li><a href="">酒店预订</a></li>
+    		    <li><a href="">车辆接送</a></li>
+    		    <li><a href="">签证代办</a></li>
+    		    <li><a href="">精彩瞬间</a></li>   
+    		</ul>  		
+    	</div>
+    	<div class="three">
+    		<ul class="h1">
+    			<div>
+    			    <li>首页&gt;酒店预订&gt;曼谷悦榕庄酒店（酒店名称）</li>
+    			</div>
+    		
+    			<div class="p5">
+
+    			    <li class="p4"><img src="big.jpg" alt=""></li>
+    			    <ul class="h5">
+
+    			    	<img src="s1.jpg" alt="">
+    			        <img src="s2.jpg" alt="">	
+    			        <img src="s3.jpg" alt="">
+    			        <img src="s4.jpg" alt="">	
+
+    			    </ul>
+    		    </div>
+    		    <div class="h">
+    		        <h1>曼谷悦榕庄酒店(酒店名称)</h1>
+                    <p>所属集团:悦榕酒店及度假村集团/Banyan Tree</p>
+                    <p>Hotels&Resorts</p>
+                    <p>所属品牌:悦榕庄/Banyan Tree</p>
+                    <p>特色设施及服务：Banya Tree Bangkok酒店的</p>
+                    <p>健身俱乐部提供设备齐全的健身中心、蒸汽浴室</p>
+                    <p>和桑拿浴室</p>
+                    <p>其他特色介绍小文案……</p>
+                    <p>其他特色介绍小文案……</p>
+
+    		    </div>
+    		    <div>
+            <div class="qq"><img src="qq.png" align="qq.png"></div>
+            <div class="ph"><img src="phone.png"></div>
+            <div class="wx"><img src="wx.png"></div>
+            <div class="wb"><img src="wb.png"></div>
+            <div class="img1"><img src="img.png"><div>
+        </div>
+        <div class="dingzhi">
+            <img src="img2.png">
+            <ul>
+            	<li>尊</li>
+            	<li>享</li>
+            	<li>订</li>
+            	<li>制</li>
+            </ul>
+        </div>
+
+    		</ul>
+
+    		
+    		
+    		
+    	</div> -->
+ 
+    	
+
+
+    		
+    
+    	
+    	<!-- <div>
+    		<h3>师大新闻</h3>
+    		<ul>
+    			<li>18&lt;he&gt17;</li>
+    			<li>18</li>
+    			<li>18</li>
+    			<li>18</li>
+    		</ul>
+    		
+    	</div>
+    	<div>
+    		<h3>师大新闻</h3>
+    		<ul>
+    			<li>18</li>
+    			<li>18</li>
+    			<li>18</li>
+    			<li>18</li>
+    		</ul>
+    		
+    	</div>
+    	<div>
+    		<h3>师大新闻</h3>
+    		<ul>
+    			<li>18</li>
+    			<li>18</li>
+    			<li>18</li>
+    			<li>18</li>
+    		</ul>
+    		
+    	</div>
+    	<div>
+    		<h3>师大新闻</h3>
+    		<ul>
+    			<li>18</li>
+    			<li>18</li>
+    			<li>18</li>
+    			<li>18</li>
+    		</ul>
+    		
+    	</div>
+    </body>
+</html>
